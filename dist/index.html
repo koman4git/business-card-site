@@ -4,10 +4,180 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/css/style.css">
+    <script src="js/main.js"></script>
     <title>Document</title>
 </head>
 <body>
-    
+    <header class="container">
+        <div class="logo">Андрей Лазарев</div>
+        <nav>
+            <ul class="menu">
+                <li><a href="#" class="menu-item">ОБО МНЕ</a></li>
+                <li><a href="#" class="menu-item">УСЛУГИ</a></li>
+                <li><a href="#" class="menu-item">КЕЙСЫ</a></li>
+                <li><a href="#" class="menu-item">ПРАЙС</a></li>
+                <li><a href="#" class="menu-item">ОТЗЫВЫ</a></li>
+                <li><a href="#" class="menu-item">КОНТАКТЫ</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="container">
+        <section class="main-section">
+            <h1>Привет! <br> я Андрей Лазарев</h1>
+            <h4>Фулл стек веб - разработчик и Android - разработчик</h4>
+            <input type="submit" name="button" value="Обо мне">
+            <input type="submit" name="button" value="Мои работы">
+        </section>
+        <section class="about-me">
+            <h2>ОБО МНЕ</h2>
+            <img src="./img/Парень mini.png" alt="фотография Андрея Лазарева" class="my-foto">
+            <p class="about-me_text1">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt reiciendis earum officiis delectus sunt? Dolor possimus nulla aliquam voluptate sint repudiandae suscipit ab. Cumque ipsam, iste corrupti odio labore quas?</p>
+            <p class="about-me_text2">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt reiciendis earum officiis delectus sunt? Dolor possimus nulla aliquam voluptate sint repudiandae suscipit ab. Cumque ipsam, iste corrupti odio labore quas?</p>
+            <a href="./img/Парень mini.png" download="" class="download">
+                <button><img src="./img/icons/downloadICO.png" alt="иконка загрузки">Скачать резюме</button></a>
+        </section>
+        <section class="capabilities">
+            <h2>ЧТО Я УМЕЮ</h2>
+            <ul class="capabilities-list">
+                <li class="capabilities-item">
+                    <img src="./img/icons/laptop.png" alt="иконка компютера" class="capabilities-img">
+                    <h4 class="capabilities-header">Веб-дизайн</h4>
+                    <p class="capabilities-description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt illo pariatur modi voluptatem cupiditate, ducimus dolorem culpa suscipit. Quibusdam quia distinctio temporibus cum porro obcaecati perspiciatis animi sed earum quasi.</p>
+                </li>
+                <li class="capabilities-item">
+                    <img src="./img/icons/develop.png" alt="иконка закрывающего тега" class="capabilities-img">
+                    <h4 class="capabilities-header">Разработка</h4>
+                    <p class="capabilities-description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt illo pariatur modi voluptatem cupiditate, ducimus dolorem culpa suscipit. Quibusdam quia distinctio temporibus cum porro obcaecati perspiciatis animi sed earum quasi.</p>
+                </li>
+                <li class="capabilities-item">
+                    <img src="./img/icons/rocket.png" alt="иконка ракеты" class="capabilities-img">
+                    <h4 class="capabilities-header">СЕО-Оптимизация</h4>
+                    <p class="capabilities-description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt illo pariatur modi voluptatem cupiditate, ducimus dolorem culpa suscipit. Quibusdam quia distinctio temporibus cum porro obcaecati perspiciatis animi sed earum quasi.</p>
+                </li>
+                <li class="capabilities-item">
+                    <img src="./img/icons/megaphone.png" alt="иконка мегафона" class="capabilities-img">
+                    <h4 class="capabilities-header">Маркетинг</h4>
+                    <p class="capabilities-description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt illo pariatur modi voluptatem cupiditate, ducimus dolorem culpa suscipit. Quibusdam quia distinctio temporibus cum porro obcaecati perspiciatis animi sed earum quasi.</p>
+                </li>
+            </ul>
+        </section>
+        <section class="cases">
+            <h2>КЕЙСЫ</h2>
+            <p class="cases-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minus, tempore. Repudiandae esse maxime corporis fuga non voluptas labore dolor quidem eveniet itaque ab distinctio doloremque, porro, minima molestiae beatae dolorem.</p>
+            <img src="./img/кейсы.png" alt="изображение сайта" class="cases-background">
+            <div class="information-block">
+                <div class="clients-inform">
+                    <h4 class="clients-inform-header">CLIENT:</h4>
+                    <p class="clients-inform-text">Какая-то компания</p>
+                    <h4 class="clients-inform-header">WEBSITE:</h4>
+                    <p class="clients-inform-text">http://www.somedomain.com</p>
+                </div>
+                <div class="project-inform">
+                    <h4 class="project-name">Название проекта</h4>
+                    <p class="project-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum tenetur vero autem iusto provident. Laudantium nihil suscipit id inventore in magnam, voluptatem ad vel saepe placeat. Voluptas corrupti praesentium dolore!</p>
+                </div>
+            </div>
+        </section>
+        <section class="cost-calculation">
+            <h2>Расчет стоимости</h2>
+            <form action="#">
+                <label for="list"><br>ТИП САЙТА</label>
+                <input type="text" list="list" placeholder="Выберите пункт">
+                <datalist id="list">
+                    <option value="розы">
+                    <option value="тюльпаны">
+                    <option value="нарциссы">
+                </datalist>
+                <label for="list">ДИЗАЙН</label>
+                <input type="text" list="list" placeholder="Выберите пункт">
+                <datalist id="list">
+                    <option value="розы">
+                    <option value="тюльпаны">
+                    <option value="нарциссы">
+                </datalist>
+                <label for="list">АДАПТИВНОСТЬ</label>
+                <input type="text" list="list" placeholder="Выберите пункт">
+                <datalist id="list">
+                    <option value="розы">
+                    <option value="тюльпаны">
+                    <option value="нарциссы">
+                </datalist>
+            </form>
+            <p class="timing">Сроки <span class="timing-number">0</span></p>
+            <p class="price">Стоимость <span class="price-number">0</span></p>            
+        </section>
+        <section class="statistics">
+            <h2>НЕМНОГО СТАТИСТИКИ</h2>
+            <ul class="statistics-list">
+                <li class="statistics-item">
+                    <img src="./img/icons/smile.png" alt="иконка смайлик" class="statistics-img">
+                    <p class="statistics-item-number">120</p>
+                    <p class="statistics-item-text">СЧАСТЛИВЫХ КЛИЕНТОВ</p>
+                </li>
+                <li class="statistics-item">
+                    <img src="./img/icons/programming.png" alt="иконка закрывающего тега" class="statistics-img">
+                    <p class="statistics-item-number">4,600</p>
+                    <p class="statistics-item-text">ЧАСОВ РАБОТЫ</p>
+                </li>
+                <li class="statistics-item">
+                    <img src="./img/icons/tick.png" alt="иконка галочки в квадрате" class="statistics-img">
+                    <p class="statistics-item-number">340</p>
+                    <p class="statistics-item-text">ПРОЕКТОВ ЗАВЕРШЕНО</p>
+                </li>
+                <li class="statistics-item">
+                    <img src="./img/icons/kubok.png" alt="иконка кубок" class="statistics-img">
+                    <p class="statistics-item-number">23</p>
+                    <p class="statistics-item-text">НАГРАД ПОЛУЧЕНО</p>
+                </li>
+            </ul>
+        </section>
+        <section class="reviews">
+            <h2>ОТЗЫВЫ</h2>
+            <img src="./img/фотка отзывы.png" alt="фото оставившего отзыв парня" class="reviews-img">
+            <p class="reviews-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, eaque. Animi unde quas labore, magnam corrupti delectus voluptate, quisquam voluptatem quos minus dicta hic exercitationem nesciunt. Ad hic tempora atque.</p>
+            <span class="reviews-name"><b>Михаил</b>, Ген директор ПАО “Газпром”.</span>
+            <div class="circles">
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+            </div>
+        </section>
+        <section class="contacts">
+            <h2>МОИ КОНТАКТЫ</h2>
+            <p class="contacts-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit duis sed dapibus leo nec ornare diamcoccodo</p>
+            <ul class="contacts-block">
+                <li class="contacts-block-item">
+                    <img src="./img/icons/locate.png" alt="иконка локации" class="contacts-block-item-icon">
+                    <p class="adress">Санкт-Петербург, Невский проспект 11</p>
+                </li>
+                <li class="contacts-block-item">
+                    <img src="./img/icons/mail.png" alt="иконка письма" class="contacts-block-item-icon">
+                    <a class="contacts-link" href="mailto:info@companyname.com">info@companyname.com</a>
+                </li>
+                <li class="contacts-block-item">
+                    <img src="./img/icons/phone.png" alt="иконка трубки телефона" class="contacts-block-item-icon">
+                    <a class="contacts-link" href="tel:+79999999999">+7 999 999-99-99</a>
+                </li>
+            </ul>
+            <h3>ОСТАВЬТЕ МНЕ СООБЩЕНИЕ</h3>
+            <form action="#">
+                <input type="text" name="name" placeholder="Имя">
+                <input type="text" name="email" placeholder="Email">
+                <textarea name="message" placeholder="Сообщение"></textarea>
+                <input type="submit" value="Отправить">
+            </form>
+        </section>
+        <section class="map">
+            <div class="map-block">
+                <a class="link-city" href="https://yandex.ru/maps/25/pskov/?utm_medium=mapframe&utm_source=maps">Псков</a>
+                <a class="link-street" href="https://yandex.ru/maps/25/pskov/house/ulitsa_lva_tolstogo_1/ZkEYdQNnT0MPQFttfXRwdX1hZQ==/?ll=28.347668%2C57.814121&utm_medium=mapframe&utm_source=maps&z=17.2">Улица Льва Толстого, 1 — Яндекс Карты</a>
+                <iframe src="https://yandex.ru/map-widget/v1/-/CCURRDDKTB" width="1920" height="540" frameborder="1" allowfullscreen="true" style="position:relative;"></iframe>
+            </div>
+        </section>
+    </main>
+    <footer class="container">
+        <span class="footer">Copyright © 2021 Андрей Лазарев. Design by Web</span>
+    </footer>    
 </body>
 </html>

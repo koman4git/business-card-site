@@ -1,3 +1,23 @@
 body {
     box-sizing: border-box;
+    
+}
+
+.map-block {
+    width: 1920px;
+    height: 808px;
+    position: relative;
+}
+
+.link-city {
+    color:#eee;
+    font-size:12px;
+    position: absolute;
+    top:0px;
+}
+.link-street {
+    color:#eee;
+    font-size:12px;
+    position: absolute;
+    top: 14px;
 }
